@@ -7,8 +7,6 @@ function App() {
   return (
     <div>
       <NavigationBar />
-      <Body />
-      <Footer />
     </div>
   );
 }
