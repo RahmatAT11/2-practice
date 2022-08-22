@@ -1,9 +1,14 @@
 import './App.css';
+import NavigationBar from './NavigationBar';
+import Body from './Body';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <p>Practice</p>
+    <div>
+      <NavigationBar />
+      <Body />
+      <Footer />
     </div>
   );
 }
